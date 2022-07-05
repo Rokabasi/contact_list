@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    margin: auto;
+    background-color: rgb(56, 131, 243);
+    text-align: left;
+}
+
+.header h1 {
+    padding-left: 3%;
+    padding-top: 1.5%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin: 1% 1% 0 1%;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    width: 40%;
+    border: 1px solid rgb(182, 207, 245);
+    margin: 5px;
+    background-color: rgb(247, 244, 241);
+    color: rgb(56, 131, 243);
+}
+
+.container2 {
+    width: 60%;
+    border: 1px solid rgb(182, 207, 245);
+    margin: 5px;
+    background-color: rgb(247, 244, 241);
+}
+
+.content {
+    padding-top: 8%;
+    margin-left: 2%;
+}
+
+input {
+    width: 95%;
+    padding: 2% 0 0 0;
+    margin: 3% 0 3% 0;
+    font-size: 100%;
+    color: rgb(56, 131, 243);
+    border: none;
+}
+
+.content select {
+    width: 95%;
+    height: 30px;
+    color: rgb(56, 131, 243);
+    background-color: white;
+    margin-bottom: 3%;
+    font-size: 100%;
+    border: none;
+}
+
+.content textarea {
+    width: 95%;
+    border: none;
+}
+
+.content #avatar {
+    width: 95%;
+}
+
+.container_head {
+    height: 40px;
+    background-color: rgb(56, 131, 243);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 1%;
+}
+
+.image {
+    width: 95%;
+    color: rgb(153, 149, 149);
+    height: 130px;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#image h3 {
+    padding-top: 25px;
+}
+
+.drag-area {
+    border: none;
+    height: 180px;
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.drag-area.active {
+    border: 2px solid #fff;
+}
+
+.drag-area header {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(99, 95, 95);
+    text-align: center;
+}
+
+.drag-area span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #5256ad;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.fake {
+    display: none;
+}
+
+.button1 {
+    background-color: rgb(56, 131, 243);
+    width: 30%;
+    height: 50px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.button2 {
+    background-color: red;
+    width: 30%;
+    height: 50px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.content2 {
+    border-bottom: 1px solid rgb(182, 207, 245);
+    height: 168px;
+    display: flex;
+}
+
+.photo_contact {
+    width: 30%;
+    height: 80%;
+    margin: 2%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+}
+
+.infos {
+    width: 70%;
+    height: 80%;
+    margin: 2%;
+    text-align: justify;
+}
+
+.infos_content {
+    display: flex;
+    flex-direction: row;
+    height: 28%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.infos1 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+
+/* .infos1 p {
+    width: 30%;
+} */
+
+.icons #update {
+    width: 40px;
+    background-image: url("images.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    border: none;
+}
+
+#delete {
+    width: 40px;
+    background-image: url("delete.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    border: none;
+}
+
+.infos1 p {
+    margin: 2% 2% 2% 0;
+}
+
+.infos2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.infos2 p {
+    margin-right: 2%;
+}

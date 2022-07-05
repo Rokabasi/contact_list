@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Répertoire de contact</h1>
+    </div>
+
+    <div class="container">
+        <form action="" class="container1">
+            <div class="container_head">
+                <h2>Formulaire de contact</h2>
+            </div>
+            <div class="content">
+                <label for="prenom" id="me">Prénom</label> <br>
+                <input type="text" name="prenom" id="prenom" required><br>
+                <label for="nom">Nom</label><br>
+                <input type="text" name="nom" id="nom" required><br>
+                <label for="téléphone">Téléphone</label><br>
+                <input type="text" name="telephone" id="telephone" required><br>
+                <label for="groupe">Groupe</label><br><br>
+                <select name="groupe" id="groupe">
+                    <option value=""></option>
+                    <option value="famille">famille</option>
+                    <option value="ami">ami</option>
+                    <option value="collègue">collègue</option>
+                    <option value="bloqué">bloqué</option>
+                </select><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="bio">Bio</label><br><br>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br><br>
+                <div class="drag-area">
+                    <header>Déposer la photo <br> ici</header>
+                    <span class="fake">OR</span>
+                    <button class="fake">Browse File</button>
+                    <input type="file" hidden>
+                </div>
+                <button class="button1" type="submit">créer</button>
+                <button class="button2" type="reset">Réinit.</button>
+            </div>
+        </form>
+        <!-- <div class="container1">
+
+        </div> -->
+        <div class="container2">
+            <div class="container_head">
+                <h2>Liste de contact</h2>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
